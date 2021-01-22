@@ -1,0 +1,16 @@
+{
+    "name": "pkgtest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "adp",
+    "license": "MIT",
+    "scripts": {
+        "start": "http-server ./ -o index.html",
+        "server": "node node_modules/od-server/main.js 3001"
+    },
+    "bin" : "$DIR/node_modules/npm/cli.js",
+    "dependencies": {
+        "http-server": "^0.12.3"
+    }
+}

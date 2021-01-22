@@ -7,8 +7,8 @@ var s = process.execPath;
 
 
 process.chdir(s);
-// exec(`http-server ${s} -o index.html`)
-exec(`npm start`);
+exec(`http-server ${s} -o index.html`)
+// exec(`npm start`);
 
 console.log("process.execPath",s);
 console.log("process.versions",process.versions)

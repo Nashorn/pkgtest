@@ -10,6 +10,7 @@
     },
     "bin" : "$DIR/node_modules/npm/cli.js",
     "dependencies": {
-        "http-server": "^0.12.3"
+        "http-server": "^0.12.3",
+        "pkg": "^4.4.2"
     }
 }

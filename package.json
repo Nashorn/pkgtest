@@ -8,9 +8,8 @@
         "start": "http-server ./ -o index.html",
         "server": "node node_modules/od-server/main.js 3001"
     },
-    "bin" : "$DIR/node_modules/npm/cli.js",
+    "bin": "$DIR/node_modules/npm/cli.js",
     "dependencies": {
-        "http-server": "^0.12.3",
-        "pkg": "^4.4.2"
+        "http-server": "^0.12.3"
     }
 }

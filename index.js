@@ -7,10 +7,10 @@ var s = process.execPath;
 
 
 process.chdir(s);
-exec(`http-server ${s} -o index.html`)
+exec(`http-server ${process.execPath} -o index.html`)
 // exec(`npm start`);
 
-console.log("process.execPath",s);
+console.log("process.execPath",process.execPath);
 console.log("process.versions",process.versions)
 if(http_server){
     console.log("http_server", "successs");

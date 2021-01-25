@@ -12,7 +12,7 @@ var s = process.execPath;
     setTimeout(e => {
         kill([8080,8081,8082,8083,8084,8085,8086,8087,8088,8089,8090,8091,8092,8093,8094,8095], 'tcp')
             .then(e => {
-                    process.chdir(s);
+                    // process.chdir(s);
                     // exec(`http-server ${process.execPath} -o index.html`)
                     exec(`npm start`);
                     

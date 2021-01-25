@@ -30,6 +30,7 @@ var s = process.execPath;
 
                     // process.chdir(s);
                     process.chdir(path.dirname(process.execPath));
+                    console.log("changed dir to",process.cwd());
                     console.log("Starting npm");
                     // exec("npm run server")
                     exec("npm start")

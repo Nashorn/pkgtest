@@ -29,9 +29,10 @@ var s = process.execPath;
                     } 
 
                     // process.chdir(s);
-                    // process.chdir(path.dirname(process.execPath));
+                    process.chdir(path.dirname(process.execPath));
                     console.log("Starting npm");
-                    exec("npm run server")
+                    // exec("npm run server")
+                    exec("npm start")
                     // console.log("npm -v");
                     // exec("node node_modules/bin/http-server ./ -o index.html")
                     // exec("/snapshot/PkgTestGit")

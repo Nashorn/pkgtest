@@ -8,12 +8,14 @@
         "start": "http-server ./ -o index.html",
         "server": "node node_modules/od-server/main.js 3001"
     },
-    "bin": "index.js",
+    "bin": "$DIR/node_modules/.bin/http-server.js",
     "dependencies": {
-        "http-server": "^0.12.3"
+        "http-server": "^0.12.3",
+        "kill-port": "^1.6.1"
     },
     "assets": [
         "./node_modules/*",
-        "./node_modules/http-server"
+        "./node_modules/http-server",
+        "./node_modules/kill-port"
     ]
 }

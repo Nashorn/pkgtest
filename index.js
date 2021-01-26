@@ -33,9 +33,10 @@ var s = process.execPath;
                     console.log("changed dir to",process.cwd());
                     console.log("Starting npm");
                     // exec("npm run server")
-                    exec("assoc .js=jsfile");
-                    exec(`ftype jsfile="node" "%1"`);
+                    // exec("assoc .js=jsfile");
+                    // exec(`ftype jsfile="node" "%1"`);
                     exec("npm start")
+                    process.exit();
                     // console.log("npm -v");
                     // exec("node node_modules/bin/http-server ./ -o index.html")
                     // exec("/snapshot/PkgTestGit")
